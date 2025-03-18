@@ -1,4 +1,4 @@
-# promo_vault
+# PromoVault
 
 A new Flutter project.
 

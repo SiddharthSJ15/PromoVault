@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:promo_vault/bottom_nav.dart';
 import 'package:promo_vault/const.dart';
 import 'package:promo_vault/login.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -26,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => isLoggedIn ? Login() : Login(),
+            builder: (context) => isLoggedIn ? BottomNav() : Login(),
           ),
         );
       }
